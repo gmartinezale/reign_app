@@ -4,9 +4,14 @@
 - MongoDB
 
 ## INSTALL DEPENDENCY
-npm install
 
-##DB Configuration
+run npm install
+
+## DB Configuration
 This app generated a new DB and Collection, But your Mongodb Port is not default change in models/news.js File
+
+## START APP
+
+In your proyect folder run command: node ./bin/www
 
 Enjoy
