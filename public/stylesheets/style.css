@@ -1,8 +1,18 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.story{
+    background-color: #FFF !important;
+    border-bottom: 1px #ccc solid !important;
 }
-
-a {
-  color: #00B7FF;
+    .story_title{
+        color:#333;
+        font-size: 13px;
+    }
+    .story_author{
+        color:#999;
+    }
+    .story_time{
+        float: right;
+    }
+.story:hover{
+    background-color: #fafafa !important;
+    cursor: pointer;
 }

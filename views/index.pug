@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    div.jumbotron
+            div.container
+                h1="HNFeed"
+    div.cotainer
+        div.list-group
+            each n in news
+                a(href=n.use_url,target='_blank',data-id=n._id).list-group-item.col-lg-12.story 
+                    span.story_title= n.use_story
+                    span.story_author= n.author
+                    span.story_time.story_title= n.create_format
+    script(src='/javascripts/index_behavior.js')
