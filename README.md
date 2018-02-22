@@ -14,4 +14,7 @@ This app generated a new DB and Collection, But your Mongodb Port is not default
 
 In your proyect folder run command: node ./bin/www
 
+## URL APP
+http://localhost:3000
+
 Enjoy
